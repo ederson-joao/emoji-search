@@ -1,8 +1,8 @@
 import { Component } from 'react';
-import Header from './Header';
-import SearchInput from './SearchInput';
-import EmojiResults from './EmojiResults';
-import filterEmoji from './filterEmoji';
+import Header from '../components/Header/Header';
+import SearchInput from '../components/SearchInput/SearchInput';
+import EmojiResults from '../components/EmojiResult/EmojiResults';
+import filterEmoji from '../helpers/filterEmoji';
 
 
 

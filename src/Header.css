@@ -7,3 +7,10 @@
     text-align: center;
     color: #333;
 }
+
+.icon-title {
+    position: relative;
+    padding: 0 0.625rem;
+    width: 2rem;
+    height: 2rem;
+}

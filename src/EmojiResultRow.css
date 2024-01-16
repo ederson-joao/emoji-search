@@ -1,0 +1,36 @@
+.component-emoji-result-row {
+    border-bottom: 0.063rem solid #acaaaa ;
+    padding: 0.625rem;
+    height: 2rem;
+    position: relative;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    cursor: pointer;
+}
+
+.component-emoji-result-row:hover {
+    background-color: #eee;
+}
+
+.component-emoji-result-row img {
+    width: 2rem;
+    height: 2rem;
+    padding-right: 0.625rem;
+}
+
+.component-emoji-result-row .title {
+    position: relative;
+    bottom: 0.5rem;
+}
+
+.component-emoji-result-row .info {
+    float: right;
+    position: relative;
+    top: 0.5rem;
+    right: 0.625rem;
+    color: #ccc;
+    display: none;
+}
+
+.component-emoji-result-row:hover .info {
+    display: inline-block;
+}
